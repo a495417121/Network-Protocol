@@ -107,13 +107,6 @@ public class emailTest {
     }
 
     public static void sendmail() throws Exception{
-        //        mailFrom = "495417121@qq.com";
-        //        password_mailFrom="dzrlkhfraadcbgcg";
-        //        mailTo = "a495417121@163.com";
-        //        mailTitle="节日快乐2！";
-        //        mailText = "这是一个简单的邮件";
-        //        photoSrc = "E:\\file\\1.jpg";
-        //        fileList.add(0,"E:\\file\\d3564fd7-80b4-4e43-ba8e-cfdaa21f669b.txt");
 
         mailFrom=smtpClientFrame.jTextAreaFrom.getText();
         password_mailFrom= String.valueOf(smtpClientFrame.jPasswordField.getPassword());
